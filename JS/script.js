@@ -91,7 +91,7 @@ const nav = document.querySelector(".nav"),
             Username : "krunalpatel6802@gmail.com",
             Password : "FE611C47590A5750B5C8575CE229642422CF",
             To : 'krunalpatel6802@gmail.com',
-            From : document.getElementById("email").value,
+            From : 'krunalpatel6802@gmail.com',
             Subject : "New contact form enquiry",
             // Body : "new",
             Body : "Name : " + document.getElementById("name").value
