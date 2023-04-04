@@ -89,8 +89,8 @@ const email = document.getElementById('email');
 function sendEmail() {
     Email.send({
         SecureToken: "dd9e8158-f7e8-45e5-aa9e-039739006c6d",
-        To: email.value,
-        From: ' "Krunal Patel" <pk5672717@gmail.com>',
+        To: "pk5672717@gmail.com",
+        From: `"${email}" <pk5672717@gmail.com>`,
         Subject: "Copy of form",
         // Body : "new",
         Body: "Name : " + document.getElementById("name").value
