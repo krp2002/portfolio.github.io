@@ -87,10 +87,11 @@ function asideSectionTogglerBtn() {
 
 const email = document.getElementById('email');
 function sendEmail() {
+
     Email.send({
-        SecureToken: "dd9e8158-f7e8-45e5-aa9e-039739006c6d",
-        To: "pk5672717@gmail.com",
-        From: `"${email}" <pk5672717@gmail.com>`,
+        SecureToken: "3c37d825-49a2-4a6d-88d0-d58ac172fbf0",
+        To: "kro122232@gmail.com",
+        From: "kro122232@gmail.com",
         Subject: "Copy of form",
         // Body : "new",
         Body: "Name : " + document.getElementById("name").value
